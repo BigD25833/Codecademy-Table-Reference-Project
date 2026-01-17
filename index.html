@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Reference</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Merriweather:ital,opsz@0,18..144;1,18..144&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>HTML Table Reference</h1>
+    <table class="html">
+        <caption>Table Elements</caption>
+        <thead>
+            <tr>
+                <th scope="col">Tags</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>&lt;table&gt;</td>
+                <td>table</td>
+                <td>defines the entirety of the table</td>
+            </tr>
+            <tr>
+                <td>&lt;caption&gt;</td>
+                <td>caption</td>
+                <td>defines the title of the table</td>
+
+            </tr>
+            <tr>
+                <td>&lt;thead&gt;</td>
+                <td>table head</td>
+                <td>defines the set of rows containing the column headings of the table</td>
+            </tr>
+            <tr>
+                <td>&lt;tbody&gt;</td>
+                <td>table body</td>
+                <td>defines the set of rows containing the main content of the table</td>
+            </tr>
+            <tr>
+                <td>&lt;tfoot&gt;</td>
+                <td>table foot</td>
+                <td>defines the set of rows containg the footer of the table (usually the sums of the columns)</td>
+            </tr>
+            <tr>
+                <td>&lt;tr&gt;</td>
+                <td>table row</td>
+                <td>defines a single row of table data</td>
+            </tr>
+            <tr>
+                <td>&lt;th&gt;</td>
+                <td>table heading</td>
+                <td>defines a cell which contains the heading for a row or column</td>
+            </tr>
+            <tr>
+                <td>&lt;td&gt;</td>
+                <td>table data</td>
+                <td>defines each cell containing the table's data that is not a heading</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="html">
+        <caption>Table Attributes</caption>
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Values</th>
+                <th scope="col">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>scope</td>
+                <td>"row", "col", "colgroup",</td>
+                <td>used in table header cells to describe if the header is for a row or a column or a group of columns</td>
+            </tr>
+            <tr>
+                <td>colspan</td>
+                <td>integers ("1,2,3...")</td>
+                <td>used to make a table cell span multiple columns</td>
+            </tr>
+            <tr>
+                <td>rowspan</td>
+                <td>integers ("1,2,3...")</td>
+                <td>used to make a table cell span multiple rows</td>
+            </tr>
+        </tbody>
+    </table>
+    <h6>Below is another example table using different elements and features.</h6>
+    <table class="nfl">
+        <caption>NFC North Rankings 2025 Season</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <!--Use a blank heading cell when ther will be row headings in the table-->
+                <th scope="col">Record</th>
+                <th scope="col">Total Touchdowns</th>
+                <th scope="col">Point Differential</th>
+                <th scope="col">Turnover Differential</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1st Place</th>
+                <td class="bears">Bears (11-6-0)</td>
+                <td class="lions">Lions (57)</td>
+                <td class="lions">Lions (+68)</td>
+                <td class="bears">Bears (+22)</td>
+
+            </tr>
+            <tr>
+                <th scope="row">2nd Place</th>
+                <td class="packers">Packers (9-7-1)</td>
+                <td class="bears">Bears (49)</td>
+                <td class="packers">Packers (+31)</td>
+                <td class="lions">Lions (+4)</td>
+            </tr>
+            <tr>
+                <th scope="row">3rd Place</th>
+                <td class="vikings">Vikings (9-8-0)</td>
+                <td class="packers">Packers (44)</td>
+                <td class="bears">Bears (+26)</td>
+                <td class="packers">Packers (+1)</td>
+            </tr>
+            <tr>
+                <th scope="row">4th Place</th>
+                <td class="lions">Lions(9-8-0)</td>
+                <td class="vikings">Vikings (35)</td>
+                <td class="vikings">Vikings (+11)</td>
+                <td class="vikings">Vikings (-9)</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="totals">
+                <th scope="row">Totals</th>
+                <td>38-29-1</td>
+                <td>185</td>
+                <td>133</td>
+                <td>18</td>
+            </tr>
+        </tfoot>
+    </table>    
+</body>
+</html>
