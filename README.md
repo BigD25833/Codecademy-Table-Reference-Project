@@ -37,7 +37,7 @@ The goal of this project is to practice creating structured tables with `<table>
 
 ## ▶️ How to View
 
-1.See the project on GitHub: https://github.com/BigD25833/Codecademy-Table-Reference-Project/blob/main/index.html
+1.See the project on GitHub: https://github.com/BigD25833/Codecademy-Table-Reference-Project/blob/main/index.html  
 2.Live demo: https://bigd25833.github.io/Codecademy-Table-Reference-Project/
 
 ---
