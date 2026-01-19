@@ -35,6 +35,13 @@ table {
     width: 80%;
 }
 
+thead {
+    background-color: #9ddb6d;
+}
+
+/*thead is used to style all column heading cells collectively
+  tbody and tfoot can be used in the same manner*/
+
 th,
 td {
     border: solid 2px black;
@@ -49,6 +56,11 @@ td {
     font-family: "Work Sans", Arial, sans-serif;
     padding: 20px 10px;
     white-space: nowrap;
+}
+
+.code {
+    background-color: #c5f99e;
+    padding: 5px;
 }
 
 .html caption {
